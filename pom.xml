@@ -14,8 +14,8 @@
   <version>${project.parent.version}</version>
   <packaging>jar</packaging>
 
-  <name>CurrentLimiter for ShaneKing</name>
-  <description>Current Limiter Utils for ShaneKing</description>
+  <name>Spring CurrentLimiter for ShaneKing</name>
+  <description>Spring CurrentLimiter for ShaneKing</description>
   <url>https://github.com/ShaneKing/org.shaneking.spring.currentlimiter</url>
   <inceptionYear>2011-2019</inceptionYear>
 
