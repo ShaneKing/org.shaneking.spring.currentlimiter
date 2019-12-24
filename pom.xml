@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.shaneking.spring</groupId>
     <artifactId>org.shaneking.spring</artifactId>
-    <version>0.1.1</version>
+    <version>0.2.0</version>
     <relativePath>../org.shaneking.spring</relativePath>
   </parent>
 
@@ -14,8 +14,8 @@
   <version>${project.parent.version}</version>
   <packaging>jar</packaging>
 
-  <name>CurrentLimiter for ShaneKing</name>
-  <description>Current Limiter Utils for ShaneKing</description>
+  <name>Spring CurrentLimiter for ShaneKing</name>
+  <description>Spring CurrentLimiter For ShaneKing</description>
   <url>https://github.com/ShaneKing/org.shaneking.spring.currentlimiter</url>
   <inceptionYear>2011-2019</inceptionYear>
 
@@ -82,12 +82,16 @@
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-aop</artifactId>
+      <artifactId>spring-boot-configuration-processor</artifactId>
+      <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-configuration-processor</artifactId>
-      <optional>true</optional>
+      <artifactId>spring-boot-autoconfigure</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-aop</artifactId>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -124,10 +128,6 @@
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
-      </plugin>
-      <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
       </plugin>
     </plugins>
   </build>
