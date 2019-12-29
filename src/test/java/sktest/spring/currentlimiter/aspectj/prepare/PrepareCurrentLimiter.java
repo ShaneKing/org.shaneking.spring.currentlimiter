@@ -1,6 +1,6 @@
 package sktest.spring.currentlimiter.aspectj.prepare;
 
-import org.shaneking.skava.ling.util.Date0;
+import org.shaneking.skava.util.Date0;
 import org.shaneking.spring.currentlimiter.annotation.CurrentLimiter;
 import org.springframework.stereotype.Component;
 

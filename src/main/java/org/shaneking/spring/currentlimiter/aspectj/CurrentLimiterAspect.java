@@ -4,7 +4,7 @@ import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
-import org.shaneking.skava.ling.util.concurrent.atomic.AtomicLong0;
+import org.shaneking.skava.util.concurrent.atomic.AtomicLong0;
 import org.shaneking.spring.currentlimiter.annotation.CurrentLimiter;
 import org.shaneking.spring.currentlimiter.exception.CurrentLimiterException;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
