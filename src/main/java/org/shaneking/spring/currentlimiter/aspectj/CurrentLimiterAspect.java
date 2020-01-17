@@ -16,7 +16,6 @@ import java.util.concurrent.atomic.AtomicLong;
 @Component
 @ConditionalOnProperty(prefix = "org.shaneking.spring.currentlimiter", name = "enabled", havingValue = "true", matchIfMissing = true)
 public class CurrentLimiterAspect {
-
   @Pointcut("execution(@org.shaneking.spring.currentlimiter.annotation.CurrentLimiter * *..*.*(..))")
   private void pointcut() {
   }

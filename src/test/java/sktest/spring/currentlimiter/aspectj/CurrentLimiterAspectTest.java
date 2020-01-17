@@ -16,7 +16,6 @@ import java.util.concurrent.Future;
 
 @Slf4j
 public class CurrentLimiterAspectTest extends SKUnit {
-
   @Autowired
   private PrepareCurrentLimiterCallable prepareCurrentLimiterCallable;
 

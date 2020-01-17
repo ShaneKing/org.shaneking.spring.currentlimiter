@@ -6,10 +6,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class PrepareCurrentLimiter {
-
   @CurrentLimiter(3)
   public void currentLimiter() {
     System.out.println(Date0.on().dateTime());
   }
-
 }

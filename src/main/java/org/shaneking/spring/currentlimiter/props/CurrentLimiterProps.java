@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = "org.shaneking.spring.currentlimiter")
 public class CurrentLimiterProps {
-
   @Getter
   @Setter
   private boolean enabled = true;

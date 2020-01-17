@@ -9,7 +9,6 @@ import java.util.concurrent.Callable;
 @Component
 @Slf4j
 public class PrepareCurrentLimiterCallable implements Callable<Boolean> {
-
   @Autowired
   private PrepareCurrentLimiter prepareCurrentLimiter;
 
