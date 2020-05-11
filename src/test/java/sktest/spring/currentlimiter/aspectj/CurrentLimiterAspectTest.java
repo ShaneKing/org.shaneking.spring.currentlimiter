@@ -6,7 +6,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.shaneking.skava.util.List0;
 import org.springframework.beans.factory.annotation.Autowired;
-import sktest.spring.currentlimiter.SKUnit;
+import sktest.spring.currentlimiter.SpringUnit;
 import sktest.spring.currentlimiter.aspectj.prepare.PrepareCurrentLimiterCallable;
 
 import java.util.List;
@@ -15,7 +15,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 @Slf4j
-public class CurrentLimiterAspectTest extends SKUnit {
+public class CurrentLimiterAspectTest extends SpringUnit {
   @Autowired
   private PrepareCurrentLimiterCallable prepareCurrentLimiterCallable;
 

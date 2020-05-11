@@ -8,8 +8,8 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @Configuration
 @EnableAspectJAutoProxy
 @SpringBootApplication
-public class CurrentLimiterApplication {
+public class SpringUnitApplication {
   public static void main(String[] args) {
-    SpringApplication.run(CurrentLimiterApplication.class, args);
+    SpringApplication.run(SpringUnitApplication.class, args);
   }
 }
