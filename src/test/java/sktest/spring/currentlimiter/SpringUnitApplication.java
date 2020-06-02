@@ -1,3 +1,4 @@
+//!important:the Application just parent of test case if AutoConfiguration in src and test case not sub of src package
 package sktest.spring.currentlimiter;
 
 import org.springframework.boot.SpringApplication;
